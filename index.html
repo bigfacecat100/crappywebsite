@@ -1,0 +1,150 @@
+<style>
+
+	h1 {
+	color: rgb(100,100,100);
+	}
+	img {
+	height: 400px;
+	}
+	img.grid {
+	height: 200px;
+	width: 200px
+	}
+	img.rotator {
+	height: 400px;
+	width: 400px
+	}
+	body {background-color: rgb(200,200,200); font-size:12px;
+		}
+
+	#description{
+	color: rgb(100,100,100);
+	back
+	}
+
+
+	.Container{
+	color: rgb(100,100,100);
+	font-size: 30px;
+	}
+
+</style>
+
+<!doctype html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="https://
+	maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/
+	bootstrap.min.css">
+
+	<div class="container">
+	<div class="jumbotron">
+	<h1>Derek's favourate Pizza!</h1>
+	<p class="lead">Our signature Mozzarella cheese is specially produced for Giordano’s by skilled Wisconsin cheese makers using only the very best milk from hard working, local farmers. It is aged to perfection and freshly shredded in house every day to ensure that rich, creamy, buttery flavor and the legendary Giordano’s melt.
+	</p>
+	<p>
+	<a class="btn btn-lg btn-success" href="#"
+	role="button">Order now</a>
+	</p>
+	</div>
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+	<div class="navbar-header">
+	<button type="button" class="navbar-toggle collapsed" datatoggle="
+	collapse" data-target="#navbar" aria-expanded="false" ariacontrols="
+	navbar">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="#">Navigation</a>
+	</div>
+	<div id="navbar" class="collapse navbar-collapse">
+	<ul class="nav navbar-nav">
+	<li class="active"><a href="#">Home</a></li>
+	<li><a href="#overview">Menu</a></li>
+	<li><a href="#features">Location</a></li>
+	</ul>
+	</div><!--/.nav-collapse -->
+	</div>
+	</nav>
+</head>
+
+<body>
+
+	<h1> Now Happenning in Chicago </h1>
+	<img src="https://res.cloudinary.com/simpleview/image/upload/crm/napavalley/HR-azzurro-exterior-credit-Mario-Piombo-b1dd5bb85056a36_88281807-5056-a36a-08a3b32db2fe41f8.jpg">
+
+<div class="container">
+<div class="row">
+<div class="col-md-4"> <img class="grid" src="https://res.cloudinary.com/simpleview/image/upload/crm/napavalley/HR-azzurro-exterior-credit-Mario-Piombo-b1dd5bb85056a36_88281807-5056-a36a-08a3b32db2fe41f8.jpg"></div>
+<div class="col-md-4"><img class="grid" src="https://res.cloudinary.com/simpleview/image/upload/crm/napavalley/HR-azzurro-exterior-credit-Mario-Piombo-b1dd5bb85056a36_88281807-5056-a36a-08a3b32db2fe41f8.jpg"></div>
+<div class="col-md-4"><img class="grid" src="https://res.cloudinary.com/simpleview/image/upload/crm/napavalley/HR-azzurro-exterior-credit-Mario-Piombo-b1dd5bb85056a36_88281807-5056-a36a-08a3b32db2fe41f8.jpg"></div>
+</div>
+<div class="row">
+<div class="col-md-4">I am a fan</div>
+<div class="col-md-4">I am an investor </div>
+<div class="col-md-4">I am a random person </div>
+</div>
+</div>
+
+<div>
+		<ul style="list-style-type: square"> 
+			<li> <a href="https://en.wikipedia.org/wiki/Pepperoni" target="_blank">Pepperoni </a> </li>
+			<li> <a href="https://en.wikipedia.org/wiki/Sausage" target="_blank">Sausage</a></li>
+			<li> <a href="https://en.wikipedia.org/wiki/Cheese" target="_blank">Cheese <a></li> </ul>
+</div>
+
+
+	
+
+	<div>
+		<h2> Giordano's </h2>
+		<p> Giordano's is good <strong> However it is expensive </strong></p>
+		<small> Though you don't care </small>
+		<em> lollllllll </em>
+	</div>
+
+
+	<div>
+		<h2> PizzaHut </h2>
+		<p> PizzaHut takes <strong> forever </strong> to order </p>
+		<a href="http://www.google.com" target='_blank'> 
+		website </a>
+	</div>
+
+		<p id="myParagraph"></p>	
+		<button type="button"
+		onclick="document.getElementById('myParagraph').innerHTML =
+		'Order Completed!'">Check out</button>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner" role="listbox">
+	<div class="item active"><img class="rotator" src="https://res.cloudinary.com/simpleview/image/upload/crm/napavalley/HR-azzurro-exterior-credit-Mario-Piombo-b1dd5bb85056a36_88281807-5056-a36a-08a3b32db2fe41f8.jpg"></div>
+	<div class="item"><img class="rotator" src="http://www.walnuthillcollege.edu/wp-content/uploads/2016/01/home_restaurants-1.jpg"></div>
+	</div>
+	</div>
+	
+	
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstr
+	ap.min.js"></script>
+
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$("#myCarousel").carousel({interval: 2000});
+	});
+	</script>
+
+</body>
+	
+</html>
